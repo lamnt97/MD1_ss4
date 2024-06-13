@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family:Arial, Helvetica, sans-serif;
+            padding: 0; 
+        }
+        .btn{
+            text-decoration: none;
+            color: white;
+            background-color: cornflowerblue;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: brown;
+        }
+    
+        .divtong{
+            border: 1px solid black;
+            width: 500px;
+            border-radius: 5px;
+        }
+
+        .title1{
+            border-bottom: 2px solid moccasin;
+        }
+
+        .title3{
+            border-top: 2px solid moccasin;
+            padding: 15px;
+            display: flex;
+            justify-content: flex-end;
+            
+        }
+
+        #cantrai{
+            margin-left: 15px;
+        }
+        .modal{
+            color: brown;
+            font-size: 25px;
+            float: right;
+            margin-top: -13px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="divtong">
+        <div class="title1">
+            <span class="modal">x</span>
+            <h2 id="cantrai">Modal 1</h2>
+        </div>
+
+        <div class="title2">
+            <p id="cantrai">Show a second modal and hide this one with the button below.</p>
+        </div>
+
+        <div class="title3">
+            <button class="btn">Open second modal</button>
+        </div>
+    </div>
+</body>
+</html>
